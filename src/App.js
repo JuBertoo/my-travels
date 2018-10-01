@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Travels from "./Travels";
 
 import Travel from "./Travel";
 
@@ -24,6 +25,7 @@ class App extends Component {
            distance="494,80 kilomètres"
            photo="https://c1.staticflickr.com/4/3374/3432848128_9a8ce4ca3c_b.jpg"
         />
+        <Travels />
       </div>
     );
   }
